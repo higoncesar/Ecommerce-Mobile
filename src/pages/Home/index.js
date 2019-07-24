@@ -27,7 +27,7 @@ import Header from '~/components/Header';
 
 class Home extends Component {
   static navigationOptions = ({ navigation }) => ({
-    header: <Header title="GoCommerce" navigation={navigation} />,
+    header: <Header title="Ecommerce" navigation={navigation} />,
   });
 
   async componentDidMount() {
